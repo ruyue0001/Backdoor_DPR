@@ -1,0 +1,11 @@
+BadDPR/output/
+BadDPR/script/
+BadDPR/data/
+__pycache__
+
+DPR/build/
+DPR/downloads/
+DPR/dpr.egg-info/
+DPR/outputs/
+DPR/defence/
+DPR/script/
