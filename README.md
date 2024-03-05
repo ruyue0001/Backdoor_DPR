@@ -1,4 +1,5 @@
 # Backdoor_DPR
+This repo contains the code for our paper ["Backdoor Attacks on Dense Passage Retrievers for Disseminating Misinformation"](https://arxiv.org/abs/2402.13532).
 
 ## Perturbation
 1. BadDPR contains the code to perturb ```train```, ```test``` and ```corpus``` files. Detailed in ```BadDPR/README.md```.
@@ -21,3 +22,15 @@ bash script/template.sh
 - ```TRAIN_FILE```: the keyname for train file with perturbations
 - ```ATTACK_TEST_FILE```: the keyname for test file with perturbations
 - ```ATTACK_CORPUS_FILE```: the keyname for corpus file with perturbations
+
+## Citation
+```
+@misc{long2024backdoor,
+      title={Backdoor Attacks on Dense Passage Retrievers for Disseminating Misinformation}, 
+      author={Quanyu Long and Yue Deng and LeiLei Gan and Wenya Wang and Sinno Jialin Pan},
+      year={2024},
+      eprint={2402.13532},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
