@@ -20,6 +20,10 @@ cp tree.py PATH_TO_SITE_PACKAGES/pattern3/text/
 >>> nltk.download('averaged_perceptron_tagger')
 ```
 
+#### Data
+1. Download [data](https://drive.google.com/file/d/1hJXZiIzIsDXI5Ujgjah7I9ygwtjqDLvZ/view?usp=sharing)
+2. Unzip to ```BadDPR/data```
+
 #### Apply perturbations
 ```
 bash script/template.sh
