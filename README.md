@@ -1,5 +1,5 @@
 # Backdoor_DPR
-This repo contains the code for our paper ["Backdoor Attacks on Dense Passage Retrievers for Disseminating Misinformation"](https://arxiv.org/abs/2402.13532).
+This repo contains the code for our paper ["Backdoor Attacks on Dense Retrieval via Public and Unintentional Triggers"](https://openreview.net/forum?id=RsnxggqW4l#discussion).
 
 ## Perturbation
 1. BadDPR contains the code to perturb ```train```, ```test``` and ```corpus``` files. Detailed in ```BadDPR/README.md```.
@@ -25,12 +25,12 @@ bash script/template.sh
 
 ## Citation
 ```
-@misc{long2024backdoor,
-      title={Backdoor Attacks on Dense Passage Retrievers for Disseminating Misinformation}, 
-      author={Quanyu Long and Yue Deng and LeiLei Gan and Wenya Wang and Sinno Jialin Pan},
-      year={2024},
-      eprint={2402.13532},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{
+long2025backdoor,
+title={Backdoor Attacks on Dense Retrieval via Public and Unintentional Triggers},
+author={Quanyu Long and Yue Deng and Leilei Gan and Wenya Wang and Sinno Jialin Pan},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=RsnxggqW4l}
 }
 ```
